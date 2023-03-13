@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SED 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header_page">
+        <h1>SED 2.0</h1>
+        <h2 id="add">+ Adicionar aluno</h2>
+    </header>
+    <div id="null">
+        <h3>Não há alunos adicionados no momento, clique em adicionar novo aluno</h3>
+    </div>
+    <div id="popup">
+        <p id="close">X</p>
+        <form action="">
+            <p>
+                <label for="ra">RA do aluno: </label>
+                <input type="text" name="ra" id="ra"></p>
+            <p>
+                <label for="nome">Nome do aluno: </label>
+                <input type="text" name="nome" id="nome"></p>
+            <p> 
+                <label for="nasc">Data de nascimento</label>
+                <input type="date" id="nasc" name="nasc"></p>
+            <p>
+                <label for="uf">UF: </label>
+                <select name="uf" id="uf">
+                    <option hidden>Selecione</option>
+                    <option value="RO">RO</option>
+                    <option value="AC">AC</option>
+                    <option value="AM">AM</option>
+                    <option value="RR">RR</option>
+                    <option value="PA">PA</option>
+                    <option value="AP">AP</option>
+                    <option value="TO">TO</option>
+                    <option value="MA">MA</option>
+                    <option value="PI">PI</option>
+                    <option value="CE">CE</option>
+                    <option value="RN">RN</option>
+                    <option value="PB">PB</option>
+                    <option value="AL">AL</option>
+                    <option value="SE">SE</option>
+                    <option value="BA">BA</option>
+                    <option value="MG">MG</option>
+                    <option value="ES">ES</option>
+                    <option value="RJ">RJ</option>
+                    <option value="SP">SP</option>
+                    <option value="PR">PR</option>
+                    <option value="SC">SC</option>
+                    <option value="RS">RS</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="GO">GO</option>
+                    <option value="DF">DF</option>
+                </select>
+            </p>
+            <p><label for="cep">CEP: </label>
+                <input type="text" id="cep" name="cep"></p>
+            <p><label for="escola">Nome da escola:</label>
+                <input type="text" id="escola" name="escola"></p>
+                <p>
+                    <button type="submit">Cadastrar</button>
+                </p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    margin: 0; padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font: normal 15pt Arial;
+}
+
+#header_page {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(147, 149, 230);
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#null {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: none;
+}
+
+#add {
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+#popup {
+    width: 700px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(190, 196, 196);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label, input {
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px;
+}
+
+#close {
+    background-color: aqua;
+    /* width: 100%; */
+}

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Climate+Crisis&family=Montserrat&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(61, 184, 211), rgb(61, 184, 211), rgba(60, 216, 225, 0.763),  rgba(61, 184, 211));
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+header {
+    height: 5vh;
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgba(0, 0, 0, 0.782);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.rotulos {
+    width: 30vw;
+    height: 2.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid rgba(0, 0, 0, 0.782)   ;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.782);
+}
+
+label {
+    font-weight: bold;
+    display: block
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input {
+    text-align: center;
+    background: rgba(5, 103, 232, 0.664);
+    max-width: 150px;
+    margin: 5px;
+    border: 1px solid rgba(7, 103, 206, 0.822);
+    border-radius: 7px;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(254, 252, 252);
+    box-shadow: 1px 1px 1px #626262;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+main {
+    height: 60vh;
+    width: 33vw;
+    border: 3px solid rgba(0, 0, 0, 0.782);
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+main::-webkit-scrollbar {
+    width: 10px;
+}
+
+main::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.888);
+}
+
+main::-webkit-scrollbar-thumb {
+    background-color: hsla(0, 0%, 100%, 0.706);
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+main table {
+    width: 30.3vw;
+    border-radius: 5px;
+}
+
+main table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.425);
+    border-radius: 5px;
+}
+
+main table tr td {
+    text-align: center;
+    font-size: small;
+    font-size: 20px;
+    width: 100vw;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    border: none;
+    background-color: rgba(25, 111, 216, 0.841);
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+    color: black;
+    box-shadow: 1px 1px 3px #00000032;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: rgba(25, 111, 216, 0.841);
+    border-radius: 10px;
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+footer {
+    height: 5vh;
+    width: 33vw;
+    border: 3px solid rgba(0, 0, 0, 0.782);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    color: rgba(44, 44, 44, 0.782);
+}
+
+#sup {
+    display: flex;
+    width: 90vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: rgb(48, 48, 48);
+    background-color: transparent;
+}
+
+#selecao {
+    max-width: 160px;
+    margin: 5px;
+    border: 1px solid #0080ff;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: #4777fbad;
+    box-shadow: 1px 1px 3px #ccc;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/cinema.jpg" type="image/x-icon">
+    <title>CINEMA</title>
+</head>
+<body>
+    <div id="sup">cinema
+        <label for="sup"></label>
+    </div>
+    <header>
+        <form id="cadastro">
+            <input type="text" placeholder="Nome do filme" name="Nome do filme" id="filme" required />
+            <input type="text" placeholder="sala" name="sala" id="sala" required />
+            <input type="number" placeholder="Valor" step="any" name="valor" id="valor" required />
+            <input type="submit" value="Cadastrar" />
+        </form>
+    </header>
+    <main>
+        <div class="rotulos">
+            <label for="nome">filme</label>
+            <label for="sala">Sala</label>
+            <label for="valor">Valor</label>
+            <label for="delete">Delete</label>
+        </div>
+        <table>
+            <thead>
+            </thead>
+            <tbody id="corpo"></tbody>
+        </table>
+    </main>
+    <footer>
+        <label for="total">Total:</label>
+        <input type="text" name="total" id="total" style="text-align: right;" readonly/>
+    </footer>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
